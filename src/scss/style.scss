@@ -1,0 +1,36 @@
+$navColor: #c7bdb1;
+$fontColor: #161412;
+$bg-color: #f5f5ef;
+
+
+$dosis: 'Dosis', sans-serif;
+$monsterat: 'Montserrat', sans-serif;
+
+body{
+    background-color: $bg-color;
+
+nav{
+    background-color: $bg-color;
+    
+    
+    .nav-link {
+        color: black;
+    }
+
+   a {
+    font-family: $monsterat;
+    font-size: 1.5em;
+    
+   }
+}
+
+.carousel-caption {
+    font-family: $monsterat;
+    color: #161412;
+    bottom: 100px;
+
+}
+
+}
+
+

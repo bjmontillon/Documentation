@@ -1,0 +1,13 @@
+body {
+  background-color: #f5f5ef; }
+  body nav {
+    background-color: #f5f5ef; }
+    body nav .nav-link {
+      color: black; }
+    body nav a {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.5em; }
+  body .carousel-caption {
+    font-family: "Montserrat", sans-serif;
+    color: #161412;
+    bottom: 100px; }
