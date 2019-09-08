@@ -12,9 +12,10 @@ $landscapePhones: "only screen and (min-width: 544px)";
 $tablets: "only screen and (min-width: 768px)";
 $deskTops: "only screen and (min-width: 992px)"; 
 $largeDesktops: "only screen and (min-width: 1200px)";
+$evenLarger: "only screen and (min-width: 1400px)";
 
 body{
-    
+
     background-color: #e7e7c7;
     font-family: $monsterat;
     
@@ -37,15 +38,32 @@ body{
 
 
 
-
+// 544px
 @media #{$landscapePhones} {
     font-size: 12px;
 }
+
+// 768px
 @media #{$tablets} {
     font-size: 15px;
-}
-@media #{$deskTops} {
+
     .card {
+        
+        width: 30rem;
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+// 992px 
+@media #{$deskTops} {
+    .nav-link {
+        font-size: 23px; 
+    }
+    
+    .card {
+        
         width: 15rem;
         p {
             font-size: 13px;
@@ -53,12 +71,25 @@ body{
     }
     
 }
+
+// 1200px
 @media #{$largeDesktops} {
     .card {
         width: 18rem;
+        p {
+            font-size: 16px;
+        }
     }
-    p {
-        font-size: 16px;
+    }
+
+// 1400px 
+@media #{$evenLarger} {
+    .card {
+        width: 18rem;
+        bottom: 150px;
+        p {
+            font-size: 16px;
+        }
     }
 }
 }

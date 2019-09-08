@@ -12,8 +12,14 @@ body {
       font-size: 12px; } }
   @media only screen and (min-width: 768px) {
     body {
-      font-size: 15px; } }
+      font-size: 15px; }
+      body .card {
+        width: 30rem; }
+        body .card p {
+          font-size: 10px; } }
   @media only screen and (min-width: 992px) {
+    body .nav-link {
+      font-size: 23px; }
     body .card {
       width: 15rem; }
       body .card p {
@@ -21,5 +27,11 @@ body {
   @media only screen and (min-width: 1200px) {
     body .card {
       width: 18rem; }
-    body p {
-      font-size: 16px; } }
+      body .card p {
+        font-size: 16px; } }
+  @media only screen and (min-width: 1400px) {
+    body .card {
+      width: 18rem;
+      bottom: 150px; }
+      body .card p {
+        font-size: 16px; } }
