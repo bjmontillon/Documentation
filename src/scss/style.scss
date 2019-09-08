@@ -1,36 +1,66 @@
-$navColor: #c7bdb1;
+// color variables
+$navColor: #c7bdb2;
 $fontColor: #161412;
-$bg-color: #f5f5ef;
+$bg-color: #e7e7c7;
+$navy: rgba(199, 189, 178, 0.5);	
 
-
+// font variables
 $dosis: 'Dosis', sans-serif;
 $monsterat: 'Montserrat', sans-serif;
+// media query variables
+$landscapePhones: "only screen and (min-width: 544px)";
+$tablets: "only screen and (min-width: 768px)";
+$deskTops: "only screen and (min-width: 992px)"; 
+$largeDesktops: "only screen and (min-width: 1200px)";
 
 body{
-    background-color: $bg-color;
-
-nav{
-    background-color: $bg-color;
     
+    background-color: #e7e7c7;
+    font-family: $monsterat;
     
     .nav-link {
         color: black;
     }
 
-   a {
-    font-family: $monsterat;
-    font-size: 1.5em;
+
+
+
+    .carousel-caption {
     
-   }
-}
-
-.carousel-caption {
-    font-family: $monsterat;
     color: #161412;
-    bottom: 100px;
-
+    .card {
+        background-color: $navy;	
+    }
+    
 }
 
+
+
+
+
+@media #{$landscapePhones} {
+    font-size: 12px;
+}
+@media #{$tablets} {
+    font-size: 15px;
+}
+@media #{$deskTops} {
+    .card {
+        width: 15rem;
+        p {
+            font-size: 13px;
+        }
+    }
+    
+}
+@media #{$largeDesktops} {
+    .card {
+        width: 18rem;
+    }
+    p {
+        font-size: 16px;
+    }
+}
 }
 
 

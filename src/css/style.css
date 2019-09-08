@@ -1,13 +1,25 @@
 body {
-  background-color: #f5f5ef; }
-  body nav {
-    background-color: #f5f5ef; }
-    body nav .nav-link {
-      color: black; }
-    body nav a {
-      font-family: "Montserrat", sans-serif;
-      font-size: 1.5em; }
+  background-color: #e7e7c7;
+  font-family: "Montserrat", sans-serif; }
+  body .nav-link {
+    color: black; }
   body .carousel-caption {
-    font-family: "Montserrat", sans-serif;
-    color: #161412;
-    bottom: 100px; }
+    color: #161412; }
+    body .carousel-caption .card {
+      background-color: rgba(199, 189, 178, 0.5); }
+  @media only screen and (min-width: 544px) {
+    body {
+      font-size: 12px; } }
+  @media only screen and (min-width: 768px) {
+    body {
+      font-size: 15px; } }
+  @media only screen and (min-width: 992px) {
+    body .card {
+      width: 15rem; }
+      body .card p {
+        font-size: 13px; } }
+  @media only screen and (min-width: 1200px) {
+    body .card {
+      width: 18rem; }
+    body p {
+      font-size: 16px; } }
