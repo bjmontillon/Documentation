@@ -7,6 +7,11 @@ body {
     color: #161412; }
     body .carousel-caption .card {
       background-color: rgba(199, 189, 178, 0.5); }
+  body .my-links ul {
+    list-style-type: none; }
+  body .my-links .mysociallinks {
+    font-size: 2vw;
+    color: black; }
   @media only screen and (min-width: 544px) {
     body {
       font-size: 12px; } }

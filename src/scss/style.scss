@@ -1,8 +1,6 @@
+@import "variables";
 // color variables
-$navColor: #c7bdb2;
-$fontColor: #161412;
-$bg-color: #e7e7c7;
-$navy: rgba(199, 189, 178, 0.5);	
+	
 
 // font variables
 $dosis: 'Dosis', sans-serif;
@@ -16,7 +14,7 @@ $evenLarger: "only screen and (min-width: 1400px)";
 
 body{
 
-    background-color: #e7e7c7;
+    background-color:$bg-color;
     font-family: $monsterat;
     
     .nav-link {
@@ -33,7 +31,17 @@ body{
         background-color: $navy;	
     }
     
-}
+    }
+
+    .my-links{
+        ul {
+            list-style-type: none;
+        }
+        .mysociallinks {
+            font-size: 2vw;
+            color: black;
+        }
+    }
 
 
 
